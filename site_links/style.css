@@ -1,1 +1,28 @@
+* {
+    box-sizing: border-box;
+}
 
+htlm, body {
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    /*Fonte*/
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #f9f9f9;
+    
+    
+}
+
+.menu {
+    border: 1px solid black;
+    border-radius: 2px;
+    
+}
