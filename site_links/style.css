@@ -26,3 +26,12 @@ body {
     border-radius: 2px;
     
 }
+
+#text {
+    font-weight: bold;
+}
+
+#text2 {
+    font-style: italic;
+    text-decoration: underline;
+}
