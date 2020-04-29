@@ -8,7 +8,7 @@ htlm, body {
 }
 
 body {
-   display: block;
+   display: inline;
    
 
     /*Fonte*/
@@ -55,9 +55,10 @@ body {
     padding: 25px;
     margin-left: 1100px;
     margin-bottom: 25px;
-    margin-top: 0px;
     float: right;
     background-color: #24105a;
+    position: relative;
+    
     
 }
 
