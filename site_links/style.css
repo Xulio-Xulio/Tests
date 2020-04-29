@@ -10,22 +10,16 @@ htlm, body {
 body {
     display: flex;
     flex-direction: column;
-
     height: 100vh;
-
     /*Fonte*/
     font-family: 'Roboto', sans-serif;
-
     background-color: #f9f9f9;
-    
+    padding: 18px;
+    width: 900px;
+    float: left;
     
 }
 
-.menu {
-    border: 1px solid black;
-    border-radius: 2px;
-    
-}
 
 #text {
     font-weight: bold;
@@ -34,4 +28,38 @@ body {
 #text2 {
     font-style: italic;
     text-decoration: underline;
+}
+
+
+.menu{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 25px;
+    
+}
+
+.menu a{
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+.login{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 25px;
+
+}
+
+.register{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 25px;
+   
 }
