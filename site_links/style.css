@@ -8,15 +8,14 @@ htlm, body {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+   display: block;
+   
+
     /*Fonte*/
     font-family: 'Roboto', sans-serif;
     background-color: #f9f9f9;
     padding: 18px;
-    width: 900px;
-    float: left;
+   
     
 }
 
@@ -30,11 +29,15 @@ body {
     text-decoration: underline;
 }
 
+.all{
+    width: 300px;
+    clear: both;
+}
 
 .menu{
     border: 1px solid black;
     border-radius: 4px;
-    width: 300px;
+    clear: left;
     padding: 5px;
     margin-bottom: 25px;
     
@@ -43,23 +46,39 @@ body {
 .menu a{
     padding: 5px;
     text-decoration: none;
+    clear: left;
+}
+
+.log{
+    border: 3px solid #24105a;
+    border-radius: 6px;
+    padding: 25px;
+    margin-left: 1100px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    float: right;
+    background-color: #24105a;
     
 }
 
 .login{
-    border: 1px solid black;
-    border-radius: 4px;
+    border: 3px solid #24105a;
+    border-radius: 8px;
     width: 300px;
-    padding: 5px;
-    margin-bottom: 25px;
+    padding: 10px;
+   float: right;
+   background-color: #ffffff;
+   
 
 }
 
 .register{
-    border: 1px solid black;
-    border-radius: 4px;
+    border: 3px solid #24105a;
+    border-radius: 8px;
     width: 300px;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 25px;
-   
+    margin-top: 25px;
+    float: right;
+    background-color: #ffffff;
 }

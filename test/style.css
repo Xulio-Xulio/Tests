@@ -1,0 +1,28 @@
+.cont{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    float: left;
+}
+
+.cont1{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    float: left;
+}
+
+.cont2{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 25px;
+    float: left;
+}
