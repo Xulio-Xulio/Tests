@@ -6,6 +6,7 @@
     margin-bottom: 25px;
     margin-right: 50px;
     float: left;
+    
 }
 
 .cont1{
@@ -16,8 +17,8 @@
     margin-bottom: 25px;
     margin-right: 50px;
     float: left;
-    position: absolute;
-    top: 50px;
+    
+    top: 50px; 
 }
 
 .cont2{
@@ -27,7 +28,7 @@
     padding: 5px;
     margin-bottom: 25px;
     float: left;
-    position: absolute;
+    
     top: 95px;
 
 }   
@@ -49,3 +50,4 @@
     Links ativos
         a:active { }
 **/
+
