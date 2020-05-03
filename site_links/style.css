@@ -19,6 +19,10 @@ body {
     
 }
 
+a:hover {
+    color: #b46051;
+}
+
 
 #text {
     font-weight: bold;

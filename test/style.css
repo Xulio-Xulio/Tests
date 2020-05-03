@@ -16,6 +16,8 @@
     margin-bottom: 25px;
     margin-right: 50px;
     float: left;
+    position: absolute;
+    top: 50px;
 }
 
 .cont2{
@@ -25,4 +27,25 @@
     padding: 5px;
     margin-bottom: 25px;
     float: left;
-}
+    position: absolute;
+    top: 95px;
+
+}   
+
+/** 
+    Posição RELATIVE se referencia pelo bloco que esta dentro(div)
+    posição ABSOLUTE se referencia pelo body
+    Z-INDEX sobrepõe 
+
+    Links não visitados
+        a:link { }
+
+    Links visitados
+        a:visited { }
+
+    Links hover
+        a:hover { }
+
+    Links ativos
+        a:active { }
+**/
