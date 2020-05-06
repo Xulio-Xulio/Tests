@@ -1,0 +1,36 @@
+.menu {
+    width: 720px;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 720px;
+    list-style-type: none;
+    border-radius: 8px;
+    background-color: #3f2ce9;
+    float: left;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    margin: auto;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    
+}
+
+li a:hover {
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #291e8f;
+}
+
