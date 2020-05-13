@@ -1,0 +1,44 @@
+body {
+    font-family: "trebuchet Ms", Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 12px;
+    text-align: center;
+}
+
+#fieldset {
+    width: 960px;
+    margin: auto;
+}
+
+fieldset {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 12px;
+}
+
+legend {
+    font-family: bold;
+}
+
+h2 {
+    margin: 0;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+input {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    width: auto;
+}

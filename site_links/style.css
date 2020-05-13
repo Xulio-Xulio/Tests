@@ -87,3 +87,27 @@ a:hover {
     float: right;
     background-color: #ffffff;
 }
+
+table {
+    width: 720px;
+    
+}
+
+th, td {
+    padding: 5px;
+    
+}
+
+th {
+    text-align: left;
+    border-bottom: 2px solid black;
+    letter-spacing: 0.1em;
+}
+
+tr:hover {
+    background-color: bisque;
+}
+
+.number {
+    text-align: right;
+}

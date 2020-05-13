@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Stylizing Forms</h1>
+
+    <div id="fieldset">
+        <fieldset>
+
+            <legend><h2>Contact Details</h2></legend>
+            
+            <div>
+                
+                <label for="name">Name: </label>
+                    <input type="text" name="Name" id="name">
+                
+            </div>
+
+            <div>
+
+                <label for="email">Email: </label>
+                    <input type="email" name="Email" id="email">
+                
+            </div>
+                
+            <div>
+
+                <label for="url">URL: </label>
+                    <input type="url" name="URL" id="url">
+                
+            </div>
+                
+        </fieldset>
+
+        <fieldset>
+            <legend><h2>Comments</h2></legend>
+
+            <div>
+
+                <label for="message">Message: </label>  
+                <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+            
+            </div>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend><h2>Remember Me</h2></legend>
+
+                <div id="button-radio">
+
+                    <label for="yes">
+                        <input type="radio" name="remmember" id="yes">Yes: 
+                    </label>
+
+                    <label for="no">
+                        <input type="radio" name="remmember" id="no">No: 
+                    </label>
+
+                </div>
+        </fieldset>
+        
+
+    </div>
+</body>
+</html>
