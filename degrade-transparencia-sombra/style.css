@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(images/fundo.png) repeat-x;
+}
+
+#box {
+    width: 300px;
+    height: 400px;
+    background: rgb(72,94,3);
+    background: radial-gradient(circle, rgba(72,94,3,0.8) 53%, rgba(129,171,0,1) 100%);
+    margin: 25px;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+#box h1 {
+    color: #fff;
+    text-shadow: 0 3px 5px #000000;
+}
+
+#box p {
+    color: #fff;
+    text-shadow: 0 3px 5px #000000;
+}
