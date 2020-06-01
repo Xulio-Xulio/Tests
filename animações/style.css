@@ -8,11 +8,11 @@ body {
 }
 
 @keyframes animation-box {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
+    0%   {background-color:red; left:0px; top:0px; border-radius: 20px;}
+    25%  {background-color:yellow; left:200px; top:200px; border-radius: 50px 50px 0 0; transform: rotate(90deg);}
     50%  {background-color:blue; left:200px; top:200px;}
     75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+    100% {background-color:red; left:0px; top:0px; border-radius: 50px 50px 0 0; transform: rotate(180deg);}
 }
 
 #box {
@@ -21,7 +21,6 @@ body {
     width: 100px;
     height: 100px;
     animation: animation-box ;
-    animation-duration: 1s;
-    
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
