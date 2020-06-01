@@ -1,0 +1,141 @@
+body {
+        font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    }
+/** Form **/
+
+#dados_paciente {
+    margin-bottom: 25px;
+}
+
+#dados_paciente button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 2px solid #820604;
+    background-color: #CF100C;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#section_class {
+    border: 4px solid #820604;
+    background-color:  #ffffff;
+    color: #000000;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 45px;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #820604;
+    background-color:  #ffffff;
+}
+
+input[type=text]{
+    width: 400px;
+    background-color: #ffffff;
+}
+
+input[type=grid] {
+    background-color:  #ffffff;
+}
+
+select {
+    border: 1px solid #820604;
+    border-radius: 1px;
+    background-color:  #ffffff;
+    color: #000000;
+}
+
+option {
+    border-radius: 4px;
+     background-color:  #ffffff;
+     color: #000000;
+}
+
+#top {
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+#form {
+    width: 960px;
+    margin: auto;
+}
+
+fieldset {
+    padding: 1em;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    margin: 12px;
+}
+
+label {
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+#name {
+    display: inline;
+    margin-left: 0px;
+}
+
+#data {
+    display: inline;
+    margin-left: 20px;
+}
+
+#idade {
+    display: inline;
+    margin-left: 20px;
+}
+
+#gestante {
+    display: inline;
+    margin-left: 20px;
+}
+
+#endereco {
+    display: inline;
+    margin-left: 20px;
+}
+
+#avaliacao {
+    margin-top: 20px;
+    float: right;
+}
+
+#assinatura input[type=text] {
+    width: 523px;
+    background-color:  #ffffff;
+}
+
+#n_crf input[type=text]{
+    width: 169px;
+    background-color:  #ffffff;
+}
+
+#unidade_de_pronto {
+    margin-top: 200px;
+}
+
+#unidade_nome input[type=text]{
+    width: 850px;
+    background-color:  #ffffff;
+}
+
+#unidade_endereco_numero #endereco{
+    margin: 0;
+    width: 550px;
+}
+
+#unidade_endereco_numero #numero {
+    width: 183px;
+}
+

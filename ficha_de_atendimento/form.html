@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="top">
+            <h2><img src="images/coronavirus.png" alt=""></h2>
+            <h2>Ficha de Atendimento Farmacêutico - Suspeita de COVID-19</h2>
+        </div>
+
+
+
+        <div id="form">
+            <div  id="dados_paciente">
+                <button>Dados do Paciente</button>
+            </div>
+
+            <section class="form hide" id="section_class">
+
+                        <form action="">
+                        <div id="name">
+                            
+                                <label for="name">Nome completo:</label>
+                                    <input type="text" />
+                            </form>
+                        </div>
+    
+                    <div id="data" >
+                        <form action="">
+                            Data de nascimento:
+                            <span data-type="selectors" data-name="birthday_wrapper"><span>
+                                <select aria-label="Day" name="birthday_day" title="Day" >
+                                    <option value="0">Day</option>
+                                <option value="1">
+                                    1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12" selected="1">
+                                    12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>
+                            </select>
+                                <select aria-label="Month" name="birthday_month" title="Month">
+                                <option value="0">Month</option>
+                            <option value="1">Jan</option><option value="2">Fev</option><option value="3" selected="1">Mar</option><option value="4">
+                                Abr</option><option value="5">Maio</option><option value="6">Jun</option><option value="7">Jul</option><option value="8">Ago</option><option value="9">Set</option><option value="10">Out</option><option value="11">Nov</option><option value="12">Dez</option>
+                            </select>
+                                <select aria-label="Year" name="birthday_year" title="Year">
+                                    <option value="0">Year</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995" selected="1">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option><option value="1936">1936</option><option value="1935">1935</option><option value="1934">1934</option><option value="1933">1933</option><option value="1932">1932</option><option value="1931">1931</option><option value="1930">1930</option><option value="1929">1929</option><option value="1928">1928</option><option value="1927">1927</option><option value="1926">1926</option><option value="1925">1925</option><option value="1924">1924</option><option value="1923">1923</option><option value="1922">1922</option><option value="1921">1921</option><option value="1920">1920</option><option value="1919">1919</option><option value="1918">1918</option><option value="1917">1917</option><option value="1916">1916</option><option value="1915">1915</option><option value="1914">1914</option><option value="1913">1913</option><option value="1912">1912</option><option value="1911">1911</option><option value="1910">1910</option><option value="1909">1909</option><option value="1908">1908</option><option value="1907">1907</option><option value="1906">1906</option><option value="1905">1905</option></select></span></span>
+                        
+                        </form>
+                    </div>
+                        <br>
+                    <div  id="sexo" >
+                        <form action="">
+                            Sexo:
+                                <label for="masc">
+                                    <input type="radio" id="masc">
+                                    Masculino
+                                </label>
+    
+                                <label for="fem">
+                                    <input type="radio" id="fem">
+                                    Feminino
+                                </label>
+                                <label for="out">
+                                    <input type="radio" id="out">
+                                    Outro
+                                    <input type="text">
+                                </label>
+                        
+                        </form>
+                    </div>
+    
+                    <div id="gestante">
+                        <form action="">
+                            Gestante:
+                                    <input type="radio" id="fem">
+                                        Não
+                                    <label for="sim">
+                                    
+                                    <input type="radio" id="sim">
+                                        Sim
+                                    </label>
+                                    - Tempo de gestação
+                                    <select name="Tempo de gestação" id="states">
+                                        <option value="meses">Meses</option>
+                                        <option value="1">0-1 mês</option>
+                                        <option value="2">1-2 mês</option>
+                                        <option value="3">2-3 mês</option>
+                                        <option value="4">3-4 mês</option>
+                                        <option value="5">4-5 mês</option>
+                                        <option value="6">5-6 mês</option>
+                                        <option value="7">6-7 mês</option>
+                                        <option value="8">7-8 mês</option>
+                                        <option value="9">8-9 mês</option>
+                                    </select>        
+                        </form>
+                    </div>
+                        <br>
+                    <div id="uf">
+                        <label for="states">
+                            Estado de residência:
+                        <select name="Estados" id="states">
+                            <option >Estados</option>
+                            <option >AC</option>
+                            <option >AL</option>
+                            <option >AP</option>
+                            <option >AM</option>
+                            <option >BA</option>
+                            <option >CE</option>
+                            <option >DF</option>
+                            <option >ES</option>
+                            <option >GO</option>
+                            <option >MA</option>
+                            <option >MT</option>
+                            <option >MS</option>
+                            <option >MG</option>
+                            <option >PA</option>
+                            <option >PB</option>
+                            <option >PR</option>
+                            <option >PE</option>
+                            <option >PI</option>
+                            <option >RJ</option>
+                            <option >RN</option>
+                            <option >RS</option>
+                            <option >RO</option>
+                            <option >RR</option>
+                            <option >SC</option>
+                            <option >SP</option>
+                            <option >SE</option>
+                            <option >TO</option>
+                        </label>
+    
+    
+                        </select>
+                    </div>
+                        
+                    <div id="endereco">
+                        <form action="">
+                            Endereço:
+                            <label for="ender">
+                                <input type="text" id="ender">
+                            </label>
+                        </form>
+                    </div>
+                
+                </section>
+           
+                <div id="dados_paciente">
+                    <button>Dados do caso</button>
+                </div>
+                
+                <section class="form hide" id="section_class">
+                    
+                <div id="data-sintomas">
+                        <form action="">
+                            Data dos primeiros sintomas:
+                            <span data-type="selectors" data-name="birthday_wrapper"><span>
+                                <select aria-label="Day" name="birthday_day" title="Day" >
+                                    <option value="0">Day</option>
+                                <option value="1">
+                                    1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12" selected="1">
+                                    12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>
+                            </select>
+                                <select aria-label="Month" name="birthday_month" title="Month">
+                                <option value="0">Month</option>
+                            <option value="1">Jan</option><option value="2">Fev</option><option value="3" selected="1">Mar</option><option value="4">
+                                Abr</option><option value="5">Maio</option><option value="6">Jun</option><option value="7">Jul</option><option value="8">Ago</option><option value="9">Set</option><option value="10">Out</option><option value="11">Nov</option><option value="12">Dez</option>
+                            </select>
+                                <select aria-label="Year" name="birthday_year" title="Year">
+                                    <option value="0">Year</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995" selected="1">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option><option value="1936">1936</option><option value="1935">1935</option><option value="1934">1934</option><option value="1933">1933</option><option value="1932">1932</option><option value="1931">1931</option><option value="1930">1930</option><option value="1929">1929</option><option value="1928">1928</option><option value="1927">1927</option><option value="1926">1926</option><option value="1925">1925</option><option value="1924">1924</option><option value="1923">1923</option><option value="1922">1922</option><option value="1921">1921</option><option value="1920">1920</option><option value="1919">1919</option><option value="1918">1918</option><option value="1917">1917</option><option value="1916">1916</option><option value="1915">1915</option><option value="1914">1914</option><option value="1913">1913</option><option value="1912">1912</option><option value="1911">1911</option><option value="1910">1910</option><option value="1909">1909</option><option value="1908">1908</option><option value="1907">1907</option><option value="1906">1906</option><option value="1905">1905</option></select></span></span>
+                        
+                        </form>
+                </div>
+
+                <div id="sintomas">
+                    <h4>Sintomas relados pelo Paciente:</h4>
+                    <div>Febre: <input type="radio"> Sim <input type="radio"> Não</div>
+                    <br>
+                    <div>Tosse: <input type="radio"> Sim <input type="radio"> Não</div>
+                    <br>
+                    <div>Dor de garganta: <input type="radio"> Sim <input type="radio"> Não</div>
+                    <br>
+                    <div>Dificuldade de respirar: <input type="radio"> Sim <input type="radio"> Não</div>
+                    <br>
+                    <div>Diarreia: <input type="radio"> Sim <input type="radio"> Não</div>
+                    <br>
+                    <div>Náuseas/vômitos: <input type="radio"> Sim <input type="radio"> Não</div>
+                    <br>
+                    <div>Cafaleia(dor de cabeça): <input type="radio"> Sim <input type="radio"> Não</div>
+            
+                </div>
+
+                <div id="morbidades">
+                    <h4>Morbidades prévias (selecionar todas pertinentes):</h4>
+                    <div><input type="checkbox">Doença cardiovascular, incluindo hipertenção</div>
+                    <br>
+                    <div><input type="checkbox">Diabetes</div>
+                    <br>
+                    <div><input type="checkbox">Doença hepática</div>
+                    <br>
+                    <div><input type="checkbox">Doença neurológica crônica ou neuromuscular</div>
+                    <br>
+                    <div><input type="checkbox">Imunodeficiência</div>
+                    <br>
+
+                </div>
+            </section>
+
+            <div id="dados_paciente">
+                <button>Dados de exposição</button>
+            </div>
+            
+            <section class="form hide" id="section_class">
+                    
+                    <h4>Histórico de viagem para fora do Brasil até 14 dias antes do início do sintomas</h4>
+                    <div>
+                        <label for="sim">
+                            <input type="checkbox" name="" id="sim">Sim, 
+                            local:<input type="text" name="" id="sim">
+                            <br>
+                        </label>
+                        <input type="checkbox">Não
+                        <input type="checkbox">Não sabe
+                    </div>
+                    
+                    <h4>Contato Próximo com uma pessoa que seja caso suspeito, provável ou confirmado de COVID-19</h4>
+                    <div>
+                        <input type="checkbox">Sim
+                        <input type="checkbox">Não
+                        <input type="checkbox">Não sabe
+                    </div>
+
+                    <h4>Ocupação do caso suspeito</h4>
+                    <div><input type="checkbox">Profissional da saúde</div>
+                    <br>
+                    <div><input type="checkbox">Estudante da área da saúde</div>
+                    <br>
+                    <div><input type="checkbox">Profissional de laboratório</div>
+                    <br>
+                    <div><input type="checkbox">trabalho em contato com animais</div>
+                    <br>
+                    <div><label for="outros">
+                        <input type="checkbox" id="outros">Outros.
+                        Especificar:
+                        <input type="text"></div>
+                    </label>
+                    <br>
+
+                    <h4>Teve contao com animais em áreas afetadas?</h4>
+                    <div>
+                        <input type="checkbox">Sim
+                        <input type="checkbox">Não
+                        <input type="checkbox">Não sabe
+                    </div>
+
+                    <h4>Informações complementares e orientações realizadas pelo Farmacêutico:</h4>
+                    <textarea name="" id="" cols="75" rows="10"></textarea>
+
+                <h4>Solicito que o paciente seja avaliado, visto que apresenta suspeita de COVID-19. <br> Agradeço a atenção</h4>
+                <div id="avaliacao">
+                    <div id="assinatura"><input type="text"><br> Assinatura do farmacêutico</div>
+                    
+                    <br>
+                    <div id="nome_completo">Nome completo: <input type="text" name="" id=""></div>
+                    <br>
+                    <div id="n_crf">N° CRF-SP: <input type="text"> Data:
+                            <span data-type="selectors" data-name="birthday_wrapper"><span>
+                                <select aria-label="Day" name="birthday_day" title="Day" >
+                                    <option value="0">Day</option>
+                                <option value="1">
+                                    1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12" selected="1">
+                                    12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>
+                            </select>
+                                <select aria-label="Month" name="birthday_month" title="Month">
+                                <option value="0">Month</option>
+                            <option value="1">Jan</option><option value="2">Fev</option><option value="3" selected="1">Mar</option><option value="4">
+                                Abr</option><option value="5">Maio</option><option value="6">Jun</option><option value="7">Jul</option><option value="8">Ago</option><option value="9">Set</option><option value="10">Out</option><option value="11">Nov</option><option value="12">Dez</option>
+                            </select>
+                                <select aria-label="Year" name="birthday_year" title="Year">
+                                    <option value="0">Year</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995" selected="1">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option><option value="1936">1936</option><option value="1935">1935</option><option value="1934">1934</option><option value="1933">1933</option><option value="1932">1932</option><option value="1931">1931</option><option value="1930">1930</option><option value="1929">1929</option><option value="1928">1928</option><option value="1927">1927</option><option value="1926">1926</option><option value="1925">1925</option><option value="1924">1924</option><option value="1923">1923</option><option value="1922">1922</option><option value="1921">1921</option><option value="1920">1920</option><option value="1919">1919</option><option value="1918">1918</option><option value="1917">1917</option><option value="1916">1916</option><option value="1915">1915</option><option value="1914">1914</option><option value="1913">1913</option><option value="1912">1912</option><option value="1911">1911</option><option value="1910">1910</option><option value="1909">1909</option><option value="1908">1908</option><option value="1907">1907</option><option value="1906">1906</option><option value="1905">1905</option></select></span></span>
+                    </div>  
+                </div>
+
+                <div id="unidade_de_pronto">
+                    <h4>Unidade de pronto-atendimento mais próximo da farmácia</h4>
+                    <div id="unidade_nome">
+                        Nome: <input type="text" name="" id="">
+                    </div>
+                    <div id="unidade_endereco_numero">
+                        Endereço: <input type="text" name="" id="endereco">
+                        Número: <input type="text" name="" id="numero">
+                    </div>
+            </section>
+            </div>
+            
+        </div>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>

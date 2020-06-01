@@ -12,7 +12,7 @@ body {
     25%  {background-color:yellow; left:200px; top:200px; border-radius: 50px 50px 0 0; transform: rotate(90deg);}
     50%  {background-color:blue; left:200px; top:200px;}
     75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px; border-radius: 50px 50px 0 0; transform: rotate(180deg);}
+    100% {background-color:red; left:0px; top:0px; border-radius: 50px 50px 0 0; transform: rotate(180deg);P}
 }
 
 #box {
