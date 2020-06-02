@@ -1,7 +1,5 @@
 #content {
     background-color: #dcdcdc;
-    width: 900px;
-    height: 400px;
     display: flex;
     /* flex-direction: column; */
     flex-direction: row;
@@ -25,6 +23,7 @@
 
 .ordem2 {
     order: 2;
+    flex-shrink: 5;
 }
 
 .ordem3 {
