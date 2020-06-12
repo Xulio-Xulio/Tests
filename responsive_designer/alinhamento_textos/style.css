@@ -1,13 +1,9 @@
 * {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     padding: 16px;
 }
 
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background: #fff url(images/fundo.png) repeat-x;
-}
-
-section {
-    border: 1px solid black;
 }
