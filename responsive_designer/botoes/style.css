@@ -1,9 +1,10 @@
 * {
-    margin: 0;
-    padding: 8px;
+    margin-bottom: 0;
+    padding: 16px;
 }
 
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background: #fff url(images/fundo.png) repeat-x;
+    float: both;
 }
