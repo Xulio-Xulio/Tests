@@ -6,4 +6,6 @@
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background: #fff url(images/fundo.png) repeat-x;
+    padding: 16px;
+    margin: 100px;
 }
