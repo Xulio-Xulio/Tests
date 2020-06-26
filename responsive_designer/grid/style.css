@@ -6,4 +6,20 @@
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background: #fff url(images/fundo.png) repeat-x;
+    margin: 100px;
+    padding: 16px;
 }
+
+.marcador {
+    background-color: rgb(121, 121, 255);
+    border: 1px solid black;
+}
+
+.marcador-container {
+    background-color: rgb(106, 255, 93);
+    border: 1px solid black;
+}
+
+.borda{
+    border: 1px solid blue;
+  }
